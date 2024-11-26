@@ -1,0 +1,27 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* STYLE */
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 30px;
+}
+
+.background-title {
+  background-color: aquamarine;
+}

@@ -6,7 +6,14 @@ import './tasks'
 import tasks from './tasks'
 
 function App() {
+  return (
+    <>
+      <header className="background-title">
+        <h1 className="title"> Task Manager</h1>
+      </header>
+    </>
 
+  )
 }
 
 export default App
