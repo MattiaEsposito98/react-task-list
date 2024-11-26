@@ -18,6 +18,11 @@
   margin-bottom: 15px;
 }
 
+h2 {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
 ul {
   list-style: none;
   margin: 15px;
@@ -36,4 +41,13 @@ span {
   color: white;
   padding: 8px;
   font-size: 15px;
+}
+
+.listToComplete::after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  margin: 10px auto 0 auto;
 }

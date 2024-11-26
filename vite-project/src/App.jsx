@@ -23,8 +23,8 @@ function App() {
       </header>
 
       {/* Array con stato da completare */}
-      <h2>Current Tasks ({taskToComplete.length}) </h2>
-      <ul>
+      <ul className='listToComplete'>
+        <h2>Current Tasks ({taskToComplete.length}) </h2>
         {taskToComplete.map((task) => (
           <li key={task.id}>
             <h3>{task.title} <span>{task.state}</span></h3>
@@ -37,8 +37,8 @@ function App() {
       <br />
 
       {/* Array con stato completato */}
-      <h2>Completed Tasks ({tasksCompleted.length}) </h2>
       <ul>
+        <h2>Completed Tasks ({tasksCompleted.length}) </h2>
         {tasksCompleted.map((task) => (
           <li key={task.id}>
             <h3>{task.title} <span>{task.state}</span> </h3>
