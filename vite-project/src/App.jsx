@@ -37,7 +37,7 @@ function App() {
       <br />
 
       {/* Array con stato completato */}
-      <h2>Current Tasks ({tasksCompleted.length}) </h2>
+      <h2>Completed Tasks ({tasksCompleted.length}) </h2>
       <ul>
         {tasksCompleted.map((task) => (
           <li key={task.id}>
